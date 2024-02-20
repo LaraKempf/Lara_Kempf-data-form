@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Forms</h1>
+    </header>
+    <form action="" method="post">
+        <fieldset>
+            <legend>Personal Data</legend>
+            <label for="first-name">First name:</label>
+            <input type="text" name="first-name" id="first-name">
+
+            <label for="last-name">Last Name:</label>
+            <input type="text" name="last-name" id="last-name">
+            <label for="street">Street</label>
+            <input type="text" name="street" id="street">
+            <label for="zip">Zipcode:</label>
+            <input type="text" name="zipcode" id="zipcode">
+            <label for="phone">Phone:</label>
+            <input type="number" name="phone" id="phone">
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email">
+            <label for="comments">Comments:</label>
+            <textarea name="comment" id="comment" rows="10">Tell us more about important colors,etc.</textarea>
+        </fieldset>
+        <fieldset>
+            <legend>Products</legend>
+
+
+            <p class="webdesign">Webdesign</p>
+            <input type="radio" name="web-design" id="individual">
+            <label for="individual">Individual</label>
+            <input type="radio" name="web-design" id="template">
+            <label for="template">Template</label>
+
+            <p class="webdev">Web Developement</p>
+
+
+            <div> <input type="checkbox" name="html" id="html">
+                <label for="html">HTML & CSS</label>
+            </div>
+            <div>
+                <input type="checkbox" name="javascript" id="js">
+                <label for="js">JavaScript</label>
+            </div>
+            <div>
+                <input type="checkbox" name="mongodb" id="mongo">
+                <label for="mongo">MongoDB</label>
+            </div>
+
+            <label for="project-start">Project Start:</label>
+            <input type="date" name="start" id="project-start">
+            <label for="project-end">Project End:</label>
+            <input type="date" name="end" id="project-end">
+            <div class="category">
+                <label for="category">Category:</label>
+                <select name="category" id="category">
+                    <option value="personal">Personal</option>
+                    <option value="professional">Professional</option>
+
+                </select>
+            </div>
+
+        </fieldset>
+        <button type="submit">Order our services</button>
+        <br><br><br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </form>
+
+
+
+
+
+
+
+</body>
+
+</html>
